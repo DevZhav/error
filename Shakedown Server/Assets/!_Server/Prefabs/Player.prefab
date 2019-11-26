@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &866266428821620658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2325771849698858293}
+  m_Layer: 0
+  m_Name: Player View
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2325771849698858293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866266428821620658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6908737853532180440}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7695041549798676191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6908737853532180440}
+  - component: {fileID: 5215726894348949967}
+  - component: {fileID: 3698731712919992553}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6908737853532180440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7695041549798676191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2325771849698858293}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5215726894348949967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7695041549798676191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab4a8b74c79e8c4b8b4b0c0276aa35c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerViewer: {fileID: 2325771849698858293}
+  nv_UserID:
+    InternalValue: 0
+  nv_GameAccess:
+    InternalValue: 0
+  nv_Team:
+    InternalValue: 0
+  nv_Name:
+    InternalValue: 
+  nv_Weapon1:
+    InternalValue: 0
+  nv_Weapon2:
+    InternalValue: 0
+  nv_Weapon3:
+    InternalValue: 0
+  nv_Itm_Hair:
+    InternalValue: 0
+  nv_Itm_Face:
+    InternalValue: 0
+  nv_Itm_Top:
+    InternalValue: 0
+  nv_Itm_Bottom:
+    InternalValue: 0
+  nv_Itm_Gloves:
+    InternalValue: 0
+  nv_Itm_Shoes:
+    InternalValue: 0
+  nv_Itm_Pet:
+    InternalValue: 0
+  nv_Itm_TopAccessory:
+    InternalValue: 0
+  nv_Itm_BottomAccessory:
+    InternalValue: 0
+  nv_Score_Eliminations:
+    InternalValue: 0
+  nv_Score_Damage:
+    InternalValue: 0
+  nv_Score_StocksLeft:
+    InternalValue: 0
+  nv_Score_Deaths:
+    InternalValue: 0
+  nv_Score_Score:
+    InternalValue: 0
+  nv_SpawnPoint:
+    InternalValue: {x: 0, y: 0, z: 0, w: 0}
+  nv_Health:
+    InternalValue: 0
+  nv_Stamina:
+    InternalValue: 0
+  nv_Dead:
+    InternalValue: 0
+  nv_AttackNumber:
+    InternalValue: 0
+  nv_ChargedAmount:
+    InternalValue: 0
+  nv_SelectedWeapon:
+    InternalValue: 0
+  nv_Pitch:
+    InternalValue: 0
+  nv_AimPositionX:
+    InternalValue: 0
+  nv_AimPositionY:
+    InternalValue: 0
+  nv_AimPositionZ:
+    InternalValue: 0
+  nv_WallHitNormalX:
+    InternalValue: 0
+  nv_WallHitNormalZ:
+    InternalValue: 0
+  nv_Radius:
+    InternalValue: 0
+  nv_Collidable:
+    InternalValue: 0
+  MaxHealth: 100
+  ReceivedPosition: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3698731712919992553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7695041549798676191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 209037615, guid: 01701b64234b4d523d8045142cbc73fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NetworkedInstanceId: 0
+  PrefabHash: 1897319656204293034
+  PrefabHashGenerator: Player
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0

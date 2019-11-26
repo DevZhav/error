@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13227fc084dbf2b458807e1cb4774723, type: 3}
+  m_Name: Null Weapon Animations
+  m_EditorClassIdentifier: 
+  Movement:
+    _FadeDuration: 0.25
+    _Clips:
+    - {fileID: 7400000, guid: ddcb64c77a8cff243a0177060a5fad8d, type: 3}
+    - {fileID: 7400000, guid: 2513dd21ae211384dbf08043cf373991, type: 3}
+    - {fileID: 7400000, guid: 227ab89ed61ec1b469c578a05df7ee14, type: 3}
+    - {fileID: 7400000, guid: 31774dd75f6268947b219317c275ffaf, type: 3}
+    - {fileID: 7400000, guid: 6043a22e31ec05d45a23f0006e569bc9, type: 3}
+    - {fileID: 7400000, guid: 915840f6b1970ae408d531005dc35bb6, type: 3}
+    - {fileID: 7400000, guid: e3b3f5df51646544a8b7228156d4f77b, type: 3}
+    - {fileID: 7400000, guid: 5ab24698719d2084eb9e09e627d10309, type: 3}
+    - {fileID: 7400000, guid: 257d960dd83ca4d4eaa6bf58e5fd0f9a, type: 3}
+    _Speeds: []
+    _Thresholds:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0, y: -1}
+    - {x: 1, y: 0}
+    - {x: -1, y: 0}
+    - {x: 1, y: 1}
+    - {x: -1, y: 1}
+    - {x: 1, y: -1}
+    - {x: -1, y: -1}
+    _DefaultParameter: {x: 0, y: 0}
+    _Type: 1
+  Airborne:
+    _FadeDuration: 0.25
+    _Clips:
+    - {fileID: 7400014, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400018, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400016, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400022, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400020, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    _Speeds: []
+    _Thresholds:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0, y: -1}
+    - {x: 1, y: 0}
+    - {x: -1, y: 0}
+    _DefaultParameter: {x: 0, y: 0}
+    _Type: 1
+  DrawWeapon: {fileID: 0}
+  ReloadWeapon: {fileID: 0}
+  Aiming:
+    _FadeDuration: 0.3
+    _Clips: []
+    _Speeds: []
+    _Thresholds: []
+    _DefaultParameter: 0
+  Shooting:
+    _FadeDuration: 0.3
+    _Clips: []
+    _Speeds: []
+    _Thresholds: []
+    _DefaultParameter: 0
+  Attack:
+    Attacking: []
+    AttackingUpperbody: []

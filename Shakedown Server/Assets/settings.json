@@ -1,0 +1,11 @@
+{
+    "IP": "AUTO",
+    "Port": 15937,
+    "IsTestServer": true,
+    "Map": "Reactor",
+    "GameMode": 1,
+    "PlayerLimit": 12,
+    "TimeLimit": 10,
+    "ScoreLimit": 10,
+    "Password": ""
+}

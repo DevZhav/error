@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3408386548203868782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3408386548203868784}
+  - component: {fileID: 3408386548203868783}
+  - component: {fileID: 8638265900189005995}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3408386548203868784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408386548203868782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3408386548203868783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408386548203868782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c876d9182e39d7f42bb2c87959815d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameMode: 1
+  TimeLimit: 30
+  PlayerLimit: 12
+  RespawnTime: 6
+  UseChildSpawns: 0
+  StartTime: 0
+  MaxScore: 0
+  nv_GameMode:
+    InternalValue: 0
+  nv_GameLength:
+    InternalValue: 0
+  nv_MaxScore:
+    InternalValue: 0
+  nv_AlphaScore:
+    InternalValue: 0
+  nv_BetaScore:
+    InternalValue: 0
+  nv_InProgress:
+    InternalValue: 0
+  nv_CurrentTime:
+    InternalValue: 0
+  nv_PauseTimeLeft:
+    InternalValue: 0
+  Scores: 10
+  BallPrefab: {fileID: 2164180391537100893, guid: 19956e34d1ddf6942916ec64df291e42,
+    type: 3}
+--- !u!114 &8638265900189005995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408386548203868782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 209037615, guid: 01701b64234b4d523d8045142cbc73fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NetworkedInstanceId: 0
+  PrefabHash: 16553853984891018775
+  PrefabHashGenerator: Game
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0

@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13227fc084dbf2b458807e1cb4774723, type: 3}
+  m_Name: Striker Sword Animset
+  m_EditorClassIdentifier: 
+  BasicMovement:
+    _FadeDuration: 0.15
+    _Clips:
+    - {fileID: 7400000, guid: 2dc80f223c7249742b38649b6f5157b0, type: 3}
+    - {fileID: 7400000, guid: ce4f5732c4ffa27459a9204685fd0def, type: 3}
+    _Speeds: []
+    _Thresholds:
+    - 0
+    - 1
+    _DefaultParameter: 0
+  StrafeMovement:
+    _FadeDuration: 0.15
+    _Clips:
+    - {fileID: 7400000, guid: 2dc80f223c7249742b38649b6f5157b0, type: 3}
+    - {fileID: 7400000, guid: 2513dd21ae211384dbf08043cf373991, type: 3}
+    - {fileID: 7400000, guid: 227ab89ed61ec1b469c578a05df7ee14, type: 3}
+    - {fileID: 7400000, guid: 6043a22e31ec05d45a23f0006e569bc9, type: 3}
+    - {fileID: 7400000, guid: 31774dd75f6268947b219317c275ffaf, type: 3}
+    - {fileID: 7400000, guid: e3b3f5df51646544a8b7228156d4f77b, type: 3}
+    - {fileID: 7400000, guid: 915840f6b1970ae408d531005dc35bb6, type: 3}
+    - {fileID: 7400000, guid: 257d960dd83ca4d4eaa6bf58e5fd0f9a, type: 3}
+    - {fileID: 7400000, guid: 5ab24698719d2084eb9e09e627d10309, type: 3}
+    _Speeds: []
+    _Thresholds:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0, y: -1}
+    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+    - {x: -1, y: 1}
+    - {x: 1, y: 1}
+    - {x: -1, y: -1}
+    - {x: 1, y: -1}
+    _DefaultParameter: {x: 0, y: 0}
+    _Type: 1
+  BasicAirborne:
+    _FadeDuration: 0.15
+    _Clips:
+    - {fileID: 7400014, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400018, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    _Speeds: []
+    _Thresholds:
+    - 0
+    - 1
+    _DefaultParameter: 0
+  Airborne:
+    _FadeDuration: 0.15
+    _Clips:
+    - {fileID: 7400014, guid: 19566bc9c4783604689bd9745f4aa4cb, type: 3}
+    - {fileID: 7400018, guid: 19566bc9c4783604689bd9745f4aa4cb, type: 3}
+    - {fileID: 7400016, guid: 19566bc9c4783604689bd9745f4aa4cb, type: 3}
+    - {fileID: 7400022, guid: 19566bc9c4783604689bd9745f4aa4cb, type: 3}
+    - {fileID: 7400020, guid: 19566bc9c4783604689bd9745f4aa4cb, type: 3}
+    _Speeds: []
+    _Thresholds:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.7}
+    - {x: 0, y: -0.7}
+    - {x: 0.7, y: 0}
+    - {x: -0.7, y: 0}
+    _DefaultParameter: {x: 0, y: 0}
+    _Type: 1
+  Sprint: {fileID: 7400000, guid: ce4f5732c4ffa27459a9204685fd0def, type: 3}
+  DrawWeapon: {fileID: 7400000, guid: ddcb64c77a8cff243a0177060a5fad8d, type: 3}
+  ReloadWeapon: {fileID: 7400000, guid: ddcb64c77a8cff243a0177060a5fad8d, type: 3}
+  Aiming:
+    _FadeDuration: 0.3
+    _Clips: []
+    _Speeds: []
+    _Thresholds: []
+    _DefaultParameter: 0
+  Shooting:
+    _FadeDuration: 0.3
+    _Clips: []
+    _Speeds: []
+    _Thresholds: []
+    _DefaultParameter: 0
+  Attack:
+    Attacking:
+    - AttackNumber: 0
+      Animation: {fileID: 1827226128182048838, guid: aae1d96588d0df340999325b313f9fea,
+        type: 3}
+      UseFullbody: 1
+    - AttackNumber: 1
+      Animation: {fileID: 1827226128182048838, guid: 9eefb32b134d68f4a82cb07b9400a660,
+        type: 3}
+      UseFullbody: 0
+    - AttackNumber: 2
+      Animation: {fileID: 1827226128182048838, guid: 24c058084c158ff43a31f8f2267414fb,
+        type: 3}
+      UseFullbody: 0
+    - AttackNumber: 3
+      Animation: {fileID: 1827226128182048838, guid: de5f4ce24ba8009409097f9d32d1abe9,
+        type: 3}
+      UseFullbody: 0
+    - AttackNumber: 4
+      Animation: {fileID: 7400000, guid: 5159e9cf12930f644b3d781afd04cef0, type: 3}
+      UseFullbody: 1
+    AttackingIdleLowerbody: {fileID: 7400000, guid: ddcb64c77a8cff243a0177060a5fad8d,
+      type: 3}

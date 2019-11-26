@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon_damage>
+    <!-- Assault Rifle -->
+    <weapon id="0">
+        <attack number="0" structure_damage="7" body_damage="7" head_damage="14" />
+    </weapon>
+    <!-- Striker Sword -->
+    <weapon id="1">
+        <attack number="0" structure_damage="10" body_damage="50" />
+        <attack number="1" structure_damage="10" body_damage="25" />
+    </weapon>
+</weapon_damage>
+
+<!-- EXAMPLE WEAPON
+<weapon id="0">
+    <attack number="0" structure_damage="10" head_damage="0" body_damage="" arms_damage="" legs_damage="" front_melee_damage="" back_melee_damage="" />
+</weapon>
+-->

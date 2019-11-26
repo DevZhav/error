@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13227fc084dbf2b458807e1cb4774723, type: 3}
+  m_Name: Heavy Shotgun Animset
+  m_EditorClassIdentifier: 
+  BasicMovement:
+    _FadeDuration: 0.25
+    _Clips: []
+    _Speeds: []
+    _Thresholds: []
+    _DefaultParameter: 0
+  StrafeMovement:
+    _FadeDuration: 0.25
+    _Clips: []
+    _Speeds: []
+    _Thresholds: []
+    _DefaultParameter: {x: 0, y: 0}
+    _Type: 1
+  BasicAirborne:
+    _FadeDuration: 0.25
+    _Clips: []
+    _Speeds: []
+    _Thresholds: []
+    _DefaultParameter: 0
+  Airborne:
+    _FadeDuration: 0.25
+    _Clips:
+    - {fileID: 7400014, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400018, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400016, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400022, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    - {fileID: 7400020, guid: 2a35317984b88f44586643b70054ce7d, type: 3}
+    _Speeds: []
+    _Thresholds:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0, y: -1}
+    - {x: 1, y: 0}
+    - {x: -1, y: 0}
+    _DefaultParameter: {x: 0, y: 0}
+    _Type: 1
+  Sprint: {fileID: 7400000, guid: ce4f5732c4ffa27459a9204685fd0def, type: 3}
+  DrawWeapon: {fileID: 7400000, guid: ddcb64c77a8cff243a0177060a5fad8d, type: 3}
+  ReloadWeapon: {fileID: 7400000, guid: d917ea18d4fc47e448f839090fe10fba, type: 2}
+  Aiming:
+    _FadeDuration: 0.25
+    _Clips:
+    - {fileID: 7400000, guid: 4ff109f53b9de440b87e4e3a9fa99892, type: 3}
+    - {fileID: 7400000, guid: 1347fe20fd4744fc38d0967e65e505d4, type: 3}
+    - {fileID: 7400000, guid: f52d74a4dc0f04b1da61024b4a3f81b9, type: 3}
+    _Speeds: []
+    _Thresholds:
+    - -90
+    - 0
+    - 90
+    _DefaultParameter: 0
+  Shooting:
+    _FadeDuration: 0.3
+    _Clips: []
+    _Speeds: []
+    _Thresholds: []
+    _DefaultParameter: 0
+  Attack:
+    Attacking: []
+    AttackingIdleLowerbody: {fileID: 0}
